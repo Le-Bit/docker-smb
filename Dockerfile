@@ -1,5 +1,4 @@
-FROM alpine:latest
-
+FROM alpine:3.7
 RUN apk add --no-cache --update \
     samba-common-tools \
     samba-client \
